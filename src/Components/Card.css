@@ -1,0 +1,19 @@
+.card {
+    background-color: white;
+    padding: 4px;
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+
+}
+
+.cardPato {
+    background-color: rgb(110, 110, 110);
+    padding: 4px;
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+

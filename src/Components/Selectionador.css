@@ -1,0 +1,64 @@
+.btnSeleccionador{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.btnSelt{
+    margin-top: 100px;
+}
+
+.counter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: bold;
+    animation-name: fadeIn;
+    animation-duration: 1s; /* Duración de la animación */
+     animation-fill-mode: forwards;
+}
+
+.patoFelix{
+    animation-name: fadeIn;
+    animation-duration: 1.5s; /* Duración de la animación */
+     animation-fill-mode: forwards;
+}
+
+.pocoyo {
+    width: 250px;
+    height: 250px;
+}
+
+.confetti {
+    width: 250px;
+    height: 250px;
+    transform: rotateY(180deg);
+}
+
+.winner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    animation-name: fadeIn;
+    animation-duration: 1.5s; /* Duración de la animación */
+     animation-fill-mode: forwards;
+}
+
+.winnerName {
+    font-weight: bold;
+    color: yellow
+}
+
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
